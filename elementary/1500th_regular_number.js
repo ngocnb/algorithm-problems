@@ -1,3 +1,11 @@
+/*
+The second problem is to find the 1,500-th number, which only contains factor 2, 3 or 5.
+Such numbers are called the regular numbers4. 2, 3, and 5 are definitely regular numbers.
+60 = 223151 is the 25-th regular number. 21 = 203171 is not because it has a factor of 7.
+Let 1 = 203050 be the 0-th regular number. The first 10 are:
+1, 2, 3, 4, 5, 6, 8, 9, 10, 12, ...
+ */
+
 const regularNumber = function (n) {
     let queue = [1];
     let result = undefined;
